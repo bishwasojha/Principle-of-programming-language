@@ -1,0 +1,12 @@
+Program Hello
+    real, dimension(5) :: n
+    INTEGER :: A
+    do A = 1, 5, 1 
+    print *,"Enter number="
+    read(*,*),n(A)
+    end do
+    
+    do A = 5, 1, -1 
+    print *,n(A)
+    end do
+End Program Hello
