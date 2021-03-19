@@ -1,0 +1,6 @@
+Program Series
+    INTEGER :: A
+    do A = 1, 10, 1 
+    print *,A**2
+    end do
+End Program Series
