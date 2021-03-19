@@ -1,0 +1,3 @@
+Program displayName
+write(*,*) "PPL lab1"
+end Program displayName
